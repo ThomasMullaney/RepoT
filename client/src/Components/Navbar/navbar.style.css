@@ -1,0 +1,49 @@
+/* .logo {
+    width: 35%;
+    opacity: 1;
+    border-style: ridge;
+    border-color: black;
+} */
+
+.logo-image{
+    width: 120px;
+    height: 100px;
+    border-radius: 10%;
+    overflow: hidden;
+    
+}
+
+
+
+.nav-link {
+    
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    background-color: transparent;
+    opacity: 0.6;
+    border-radius: 20px;
+}
+
+.nav-theme {
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.navbar-item{
+    
+}
+.animate-navbar {
+    box-shadow: 1px 1px 1px #222;
+    animation: moveDown 0.5s ease-in-out;
+}
+
+
+
+@keyframes moveDown {
+    from {
+        transform: translateY(-5rem);
+    } 
+    to {
+        transform: translateY(0rem);
+    }
+}
